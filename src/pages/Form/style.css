@@ -1,0 +1,91 @@
+.column-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 10px; /* Space between columns */
+}
+
+.left-column {
+  flex: 2; /* Adjusted width for left column */
+  max-width: 75%; /* Optional: for better control */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.right-column {
+  flex: 2; /* Adjusted width for right column */
+  max-width: 35%; /* Optional: for better control */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.field-with-toggle {
+  display: flex;
+  align-items: center;
+  gap: 40px; /* Space between date fields and toggle buttons */
+}
+
+.form-group {
+  margin-bottom: 20px; /* Space between form groups */
+}
+
+
+select,
+.dx-datebox,
+.dx-selectbox {
+  width: 50%;
+ 
+  margin-bottom: 10px; 
+  height: 45px;
+}
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.form-buttons1, .form-buttons2 {
+  flex: 1; /* Make buttons take equal space */
+  padding: 12px 24px;
+  margin-right: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #06013e;
+  color: #ffffff;
+  outline: none;
+}
+
+.form-buttons2 {
+  margin-right: 0; /* Remove margin on the second button */
+  
+}
+
+.toggle-button-option {
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  border-radius: 4px; /* Ensure consistent border radius */
+  background-color: #002345;
+  color: #fff;
+}
+
+.toggle-button-option.selected {
+  background-color: #b12600;
+  color: #fff;
+}
+
+.dx-toggle-button {
+  margin-left: 0; /* Align toggle button with date fields */
+  cursor: pointer;
+  padding: 5px 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  height: 45px; /* Adjust height to align with date fields */
+  width: 100px; /* Ensure consistent width */
+}

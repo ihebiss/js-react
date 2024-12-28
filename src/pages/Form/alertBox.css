@@ -1,0 +1,79 @@
+/* styles.css */
+.alert-container {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 500px; 
+    background-color: #ffffff; 
+    color: #000d74;
+    border: 1px solid #000d74; 
+    padding: 15px;
+    z-index: 9999; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px; 
+    text-align: left; 
+    overflow: hidden; 
+}
+
+.alert-container h3 {
+    margin: 0;
+    font-size: 10px; 
+    font-weight: bold; 
+    color: #000d74; 
+}
+
+.alert-container p {
+    margin: 5px 0;
+}
+
+.alert-container p strong {
+    font-weight: bold;
+}
+
+.alert-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.custom-alert {
+    background-color: #ffffff;
+    color: #000d74;
+    border: 1px solid #ec5700; 
+    padding: 15px;
+    margin-top: 10px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%; 
+    max-width: 500px; 
+    border-radius: 5px;
+    text-align: center; 
+    z-index: 10000; 
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.form-buttons1, .form-buttons2 {
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #ec5700;
+    color: #ffffff;
+    outline: none;
+}
+
+.form-buttons1 {
+    margin-right: 10px; /* Space between buttons */
+}
+
+.form-buttons2 {
+    margin-left: 10px; 
+}
